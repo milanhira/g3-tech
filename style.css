@@ -1,0 +1,13 @@
+/*import indivedual css file*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+
+@import "./css/header.css";
+@import "./css/main.css";
+/* global css style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+

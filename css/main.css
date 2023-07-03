@@ -1,0 +1,595 @@
+section {
+    width: 1920px;
+    margin: 85px auto;
+}
+/* section-1 style */
+.section-1 {
+    width: 1420px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team-grid {
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+.team-grid img {
+    width: 100%;
+}
+.team-details {
+    margin: 10px 0px;
+}
+.team-title {
+    color: #727272;
+    font-size: 45px;
+    font-family: Work Sans;
+    font-weight: 500;
+}
+.team-details .btn {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: Work Sans;
+    font-weight: 600;
+    padding: 19px;
+    margin-left: 0px;
+}
+/* end section-1 style */
+/* section-2 style */
+
+/* end section-2 style */
+    .section-2 {
+        margin-top: 100px;
+    }
+    .feture-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .feture-title {
+        padding-left: 50px;
+        border-left: 5px solid #FF900E;
+        color: #131313;
+        font-size: 45px;
+        font-family: Work Sans;
+        font-weight: 700;
+    }
+    .feture-discription {
+        margin-top: 20px;
+        width: 580px;
+        color: #727272;
+        font-size: 16px;
+        font-family: Work Sans;
+        line-height: 26px;
+    }
+    .feture-bolgs {
+        padding: 30px 5px 100px 33px;
+        width: 580px;
+        height: 170px;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+        margin-bottom: 10px;
+    }
+    .bolgs-title {
+        color: #131313;
+        font-size: 20px;
+        font-family: Work Sans;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .bolgs-discription {
+        color: #727272;
+        font-size: 16px;
+        font-family: Work Sans;
+        line-height: 26px;        
+    }
+    .feture-right {
+        position: relative;
+    }
+    .feture-right .btn {
+        border-radius: 8px;
+        background: #FF900E;
+        color: white;
+        width: 342px;
+        height: 200px;
+        text-align: center;
+        font-family: Work Sans;
+        font-weight: 600;
+        padding: 48px;
+        position: absolute;
+        margin-left: -108px;
+        margin-top: -120px;
+    }
+
+    /* section-3 style */
+    .section-3 {
+        margin-top: 120px;
+    }
+    .section-3-block h1 {
+        color:  #131313;
+        font-size: 45px;
+        font-family: Work Sans;
+        font-weight: 700;
+    }
+    .section-3-block p {
+        color: #727272;
+        font-size: 16px;
+        font-family: Work Sans;
+        line-height: 26px;
+    }
+    .winer-sections {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .winer {
+        width: 241px;
+        height: 241px;
+        border-radius: 8px;
+        border: 1px solid #FF900E;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .winer img {
+        width: 45.221px;
+        height: 45.221px;
+    }
+    .winer h3 {
+        color: #424242;
+        font-size: 45px;
+        font-family: Work Sans;
+        font-weight: 600;
+        margin: 10px 0px;
+    }
+    .winer p {
+        color: #727272;
+        font-size: 20px;
+        font-family: Work Sans;
+        font-weight: 600;
+    }
+    /* section-4 style style */
+    .section-4 {
+        margin-top: 150px;
+    }
+    .sponspors-title {
+        color: #131313;
+        font-size: 45px;
+        font-family: Work Sans;
+        font-weight: 700;
+        text-align: center;
+    }
+    .sponspors-sub-title {
+        margin-top: 24px;
+        color: #727272;
+        text-align: center;
+        font-size: 16px;
+        font-family: Work Sans;
+        line-height: 26px;
+    }
+    .ponspors-customer {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .ponspors-customer img {
+        width: 166.757px;
+        height: 50px;
+    }
+    /* end section-4 style style */
+    
+    /* footer section style */
+    footer {
+        width: 1920px;
+        height: 100px;
+        background-color: #ffa73c;
+        margin: 100px auto 0px auto;
+    }
+   
+    footer p {
+        color: #424242;
+        text-align: center;
+        font-size: 20px;
+        font-family: Work Sans;
+        padding: 40px 0px;
+    }
+
+    /* our-office styling section */
+    .our-tem {
+        position: relative;
+        padding-top: 100px;
+        margin: 0px auto;
+    }
+    .our-tem h1 {
+        z-index: 100;
+        position: absolute;
+        margin-top: 250px;
+        font-size: 150px;
+        color: rgba(0, 255, 179, 0.834);
+        border-left: 30px solid rgb(255, 255, 33);
+        padding-left: 25px;
+        margin-left: 100px;
+        cursor: pointer;
+    }
+    .our-tem h4 {
+        position: absolute;
+        margin-top: -330px;
+        margin-left: 100px;
+        font-size: 60px;
+        border: 4px solid rgba(0, 255, 179, 0.834);
+        padding: 20px 40px;
+        border-radius: 50px;
+        color: rgb(255, 255, 33);
+        cursor: pointer;
+        background-color: blue;
+    }
+    video {
+        width: 100%;
+        border-radius: 30px;
+        border: 5px solid crimson;
+        filter: blur(10px);
+    }
+    /* end our-office styling section */
+    
+    /* end footer section style */
+   
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 800px) {
+    .container  {
+        width: 100%;
+        padding: 18px;
+    }
+    section {
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+    }
+    /* section-1 styling */
+    .section-1 {
+        width: 100%;
+        flex-direction: column;
+    }
+    .team-grid {
+        width: 350px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+    .team-details > div {
+        text-align: center;
+        margin: -20px auto;
+        padding: 25px;
+    }
+    .team-title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .team-details .btn {
+        margin: 0px auto;
+    }
+    /* end section-1 style */
+
+    /* section-2 style  */
+    .section-2 {
+        margin-top: 10px;
+    }
+    .feture-title {
+        padding-left: 9px;
+        border-left: 5px solid #FF900E;
+        color: #131313;
+        font-size: 21px;
+        font-family: Work Sans;
+        font-weight: 700;
+    }
+    .team-details > div {
+        text-align: center;
+        margin: -14px auto;
+        padding: 13px;
+    }
+    .feture-discription {
+        text-align: left;
+        margin-top: 8px;
+        width: 329px;
+        color: #727272;
+        font-size: 16px;
+        font-family: Work Sans;
+        line-height: 26px;
+    }
+    .feture-bolgs {
+        padding: 8px 5px 152px 10px;
+        width: 347px;
+        height: 69px;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+        margin-bottom: 10px;
+    }
+    .bolgs-title {
+        color: #131313;
+        font-size: 18px;
+        font-family: Work Sans;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .feture-section {
+        flex-direction: column;
+    }
+    .feture-right img {
+        width: 100%;
+    }
+    .feture-right .btn {
+        border-radius: 8px;
+        background: #FF900E;
+        color: white;
+        width: 300px;
+        height: 136px;
+        text-align: center;
+        font-family: Work Sans;
+        font-weight: 600;
+        padding: 16px;
+        position: absolute;
+        margin-left: 9px;
+        margin-top: 33px;
+    }
+    .btn > h1 {
+        font-size: 25px;
+    }
+    .btn > p {
+        font-size: 18px;
+    }
+    /* section-3 style */
+    .section-3 {
+        margin-top: 177px;
+    }
+    .section-3-block p {
+        font-size: 18px;
+        margin-top: 14px;
+    }
+    .winer-sections {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .winer {
+        flex-direction: column;
+        margin-bottom: 18px;
+    }
+
+    /* section-3 style */
+    .section-4 {
+        margin-top: 12px;
+    }
+    .sponspors-title {
+        font-size: 40px;
+    }
+    .sponspors-sub-title {
+        margin-top: 18px;
+        font-size: 22px;
+    }
+    .ponspors-customer {
+        margin-top: 43px;
+        flex-direction: column;
+    }
+    .ponspors-customer img {
+        width: 166.757px;
+        height: 50px;
+        margin-bottom: 41px;
+    }
+    /* end section-3 style */
+    /* footer section style */
+    footer {
+        width: 356px;
+        height: 78px;
+        background: #FFF4E7;
+        margin: 39px auto 0px auto;
+    }
+    footer p {
+        color: #424242;
+        text-align: center;
+        font-size: 17px;
+        font-family: Work Sans;
+        padding: 21px 0px;
+    }
+    /* end footer section style */
+
+    /* our team section */
+    .our-tem {
+        width: 100%;
+        position: relative;
+        padding-top: 0px;
+        margin: 0px auto;
+    }
+    
+    .our-tem h1 {
+        z-index: 100;
+        position: absolute;
+        margin-top: 60px;
+        font-size: 20px;
+        color: rgba(0, 255, 179, 0.834);
+        border-left: 5px solid rgb(255, 255, 33);
+        padding-left: 6px;
+        margin-left: 79px;
+        cursor: pointer;
+    }
+    .our-tem h4 {
+        position: absolute;
+        margin-top: -102px;
+        margin-left: 85px;
+        font-size: 16px;
+        border: 2px solid rgba(0, 255, 179, 0.834);
+        padding: 2px 3px;
+        border-radius: 10px;
+        color: rgb(255, 255, 33);
+        cursor: pointer;
+        background-color: blue;
+    }
+    video {
+        width: 100%;
+        border-radius: 30px;
+        border: 5px solid crimson;
+        filter: blur(5px);
+    }
+    /* end our team section */
+
+}
+/* CSS apply on width between 501px and 600px */
+@media only screen and (max-width: 900px) and (min-width: 801px){
+    section {
+        width: 100%;
+        margin: 0px;
+    }
+    .section-1 {
+        margin: 42px 0px;
+        width: 100%;
+        /* border: 1px solid red; */
+        flex-direction: column;
+    }
+    .team-details {
+        font-size: 20px;
+        text-align: center;
+        margin: 20px  0px;
+        padding: 15px;
+    }
+    .team-title {
+        margin-bottom: 10px;
+    }
+    .sub-title > .sub-title {
+        font-size: 20px;
+    }
+    .team-details .btn {
+        margin: 0px auto;
+    }
+
+    /* feture section */
+    .feture-section {
+        flex-direction: column;
+    }
+    .feture-title {
+        padding-left: 11px;
+        border-left: 5px solid #FF900E;
+        color: #131313;
+        font-size: 45px;
+        font-family: Work Sans;
+        font-weight: 700;
+    }
+    .feture-discription {
+        margin-bottom: 28px;
+    }
+    .feture-bolgs {
+        padding: 30px 5px 100px 23px;
+        width: 672px;
+        height: 170px;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+        margin-bottom: 10px;
+    }
+    .feture-right .btn {
+        border-radius: 8px;
+        background: #FF900E;
+        color: white;
+        width: 300px;
+        height: 136px;
+        text-align: center;
+        font-family: Work Sans;
+        font-weight: 600;
+        padding: 16px;
+        position: absolute;
+        margin-left: 226px;
+        margin-top: 41px;
+    }
+    .btn > h1 {
+        font-size: 25px;
+    }
+    .btn > p {
+        font-size: 18px;
+    }
+    /* section-3 style */
+    .container {
+        padding: 47px;
+    }
+    .section-3 {
+        margin-top: 150px;
+    }
+    .section-4 {
+        margin-top: 25px;
+    }
+    .section-3-block p {
+        font-size: 20px;
+        margin-top: 14px;
+    }
+    .section-2 {
+        margin-top: -125px;
+    }
+    .winer-sections {
+        margin-top: 44px;
+    }
+    .winer {
+        width: 173px;
+    }
+    .winer p {
+        font-size: 17px;
+    }
+    .ponspors-customer img {
+        width: 121.757px;
+        height: 37px;
+    }
+    /* footer style */
+    footer {
+        width: 800px;
+        margin: 0px auto;
+    }
+    /* end footer style */
+
+
+    /* .our-team section */
+    .our-tem {
+        width: 100%;
+        position: relative;
+        padding-top: 0px;
+        margin: 0px auto;
+    }
+    
+    .our-tem h1 {
+        z-index: 100;
+        position: absolute;
+        margin-top: 123px;
+        font-size: 50px;
+        color: rgba(0, 255, 179, 0.834);
+        border-left: 10px solid rgb(255, 255, 33);
+        padding-left: 13px;
+        margin-left: 182px;
+        cursor: pointer;
+    }
+    .our-tem h4 {
+        position: absolute;
+        margin-top: -200px;
+        margin-left: 181px;
+        font-size: 30px;
+        border: 2px solid rgba(0, 255, 179, 0.834);
+        padding: 8px 31px;
+        border-radius: 25px;
+        color: rgb(255, 255, 33);
+        cursor: pointer;
+        background-color: blue;
+    }
+    video {
+        width: 100%;
+        border-radius: 30px;
+        border: 5px solid rgb(0, 189, 19);
+        filter: blur(5px);
+    }
+    /* end .our-team section */
+}
